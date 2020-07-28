@@ -21,7 +21,11 @@
                 background: #eee;
                 font-size: 18px;
                 transition: 0.2s;
-            }
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                «}
             ul li:nth-child(odd) {
                 background: #f9f9f9;
             }
@@ -32,7 +36,7 @@
     </head>
     <body>
         <h1>TODO list</h1>
-        <h3>Todo</h3>
+        <h3>Todo</h3>
         <ul>
             <li>Buy a hat for the bat</li>
             <li>Clear the fogs for the frogs</li>
