@@ -3,5 +3,5 @@ A simple app to manage your daily tasks
 It uses HTML5 and CSS3
 
 ## Features
-* List of daly tasks
+* List of daily tasks
 * Labels for tasks
